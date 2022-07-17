@@ -6,7 +6,7 @@ import { BASE_URL } from '../../utils/request';
 import './style.css';
 
 type Props = {
-    saleId: Number;
+    saleId: number;
 
 }
 
@@ -17,10 +17,10 @@ function handleClick(id :number) {
         });
 }
 
-function NotificationButton( {saleId} : Props ) {
+function NotificationButton({saleId}: Props ) {
     return (
         <div className="dsmeta-red-btn" onClick={() => handleClick(saleId)}>
-            <img src={icon} alt="Notificar"/>
+            <img src={icon} alt="Notificar" />
         </div>
     )
 }
