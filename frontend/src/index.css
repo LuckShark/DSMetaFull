@@ -17,3 +17,13 @@ a, a:hover, a:visited {
     color: unset; /*pra não ter mudança de cor depois de clicar*/
     text-decoration: none; /*pra não aparecer o sublinhado*/
 }
+
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;/*quando ficar menor que 900, ele ocupará 100%*/
+    margin: 0 auto; /*M.A.C.E.T.E pra alinhar a div ao CENTRO*/
+}
+
+#sales {
+    padding: 40px 10px;
+}

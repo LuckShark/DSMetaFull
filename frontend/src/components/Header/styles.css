@@ -1,0 +1,34 @@
+header {
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    /*até agora, os elementos estavam alinhados com o topo*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*agora sim, tudo alinhado ao centro*/
+}
+
+.dsmeta-logo-container {
+    display: flex;
+    /*muda o alinhamento dos itens*/
+    flex-direction: column;
+    /*para ficar um embaixo do outro*/
+    align-items: center;
+}
+
+.dsmeta-logo-container img {
+    width: 235px;
+}
+
+.dsmeta-logo-container h1 {
+    /*colocando os espaços*/
+    margin-top: 15px;
+    font-size: 24px;
+    /*já está em negrito, não preciso mudar o font-weight*/
+}
+
+.dsmeta-logo-container p {
+    font-size: 14px;
+    font-weight: 300;
+    /*esse eu tive que ajeitar, é um estilo mais fino*/
+}
